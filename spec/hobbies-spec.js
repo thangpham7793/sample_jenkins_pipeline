@@ -1,4 +1,4 @@
-const hobbies = require("./hobbies");
+const hobbies = require("../hobbies");
 describe("API unit test suite", () => {
   describe("getHobbies", () => {
     const list = hobbies.getHobbies();
